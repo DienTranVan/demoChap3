@@ -1,6 +1,10 @@
-<% provide(:title, "Contact") %>
+<% provide(:title, 'Contact') %>
 <h1>Contact</h1>
 <p>
   Contact the Ruby on Rails Tutorial about the sample app at the
-  <a href="http://www.railstutorial.org/contact">contact page</a>.
+  <a id="rail2" href="http://www.railstutorial.org/contact">contact page</a>.
 </p>
+<%= link_to image_tag("rails.png", alt: "Rails logo"),
+            'http://rubyonrails.org/' %> 
+<%= link_to image_tag("kitten.jpg", alt: "kitten"),
+	    'https://www.learnenough.com/' %>
